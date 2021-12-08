@@ -1,2 +1,6 @@
 # Map-Application
-A JavaFX application that allows users to import a picture (map intended) and then make markers on it for modes of transportation with information about it as well as searching for existing markers.
+A JavaFX application that allows users to import a picture (map intended) and then make markers on it for modes of transportation with information about it as well as searching for existing markers etc. This was a university assignment for course PROG2 in Stockholm's University. 
+
+Open a picture in the graphical interface. Then you can make a mark on the map showing a polygon marker, the marker can be selected to be a mode of transportation such as bus or train for example. Markers can be given names and descriptions and after being created can be hidden temporarily or removed. Markers can be found by searching for the category they belong to or their names or coordinates. Markers can be saved onto your computer and loaded into the application from the users computer. The application also contains warnings when the user does things wrong or search for markers that don't exist. The application also warns users against doing things that can result in permanent loss of markers currently on the screen like exiting the application without saving.
+
+Besides using graphical interfaces one of the main goals of this assignment was to use data structures cleverly like using map-structures for finding specific markers with a keyword instead of going through a list and checking each marker one by one. 
